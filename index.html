@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Images/ch.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/Style.css">
 
@@ -11,14 +12,14 @@
 </head>
 <body>
     <a href="#" class="scrolltop" id="scroll-top">
-        <i class="bx bx-chevron-up scrolltop__icon"></i> 
+        <i class="bx bx-chevrons-up scrolltop__icon"></i> 
     </a>
     
 
 
     <header class="i-header " id="header">
         <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Emmy's kitchen</a>
+            <a href="#" class="nav__logo"><img src="/Images/ch.png" alt=""></a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -27,8 +28,8 @@
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
-
-                    <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+                    <li class="nav__item"><a href="#"><i class='bx bx-user nav__link'></i></a></li>
+                    <li class="nav__item"><i class="bx bx-moon change-theme  nav__link" id="theme-button"></i></li>
                 </ul>
             </div>
 
@@ -42,23 +43,41 @@
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__data">
-                    <h1 class="home__title">Emmy food</h1>
+                    <h1 class="home__title">
+                        <span>M</span>
+                        <span>y</span>
+                        <span>K</span>
+                        <span>i</span>
+                        <span>t</span>
+                        <span>c</span>
+                        <span>h</span>
+                        <span>e</span>
+                        <SPan>n</SPan>
+                    </h1>
                     <h2 class="home__subtitle">Simple spicy and tasty <br>recipe </h2>
-                    <a href="#" class="button">View Menu</a>
+                    <div class="btnn">
+                        <button class="button"><a href="#"><p>View Menu</p><i class='bx bx-chevrons-right'></i></a></button>
+                        <button class="button b2"><a href="recipe.html"><p>Check Recipe</p><i class='bx bx-chevrons-right'></i></a></button> 
+                    </div>
+                    
                 </div>
                 <img src="Images/rice.png" alt="">
             </div> 
         </section>
+        <div class="spi">
+            <img src="/Images/tom.png" alt="">
+            <img src="/Images/sp.png" alt="">
+        </div>
 
         <section class="about section bd-container" id="about">
             <div class="about__container bd-grid">
                 <div class="about__data">
                     <span class="section-subtitle about__initial">About us</span>
-                    <h2 class="section-title about__initial">We cook the best <br> spicy and tasty food </h2>
+                    <h2 class="section-title about__initial">We cook the best </h2>
                     <p class="about__description">
-                        WE cook the best food in the entire city, with excellent customer service, and at the best price, visit us.
+                        we cook the best spicy and tasty food with our fantastic recipes in the entire city, with excellent customer service, and at the best price, visit us.
                     </p>
-                    <a href="#" class="button">Explore history</a>
+                    <button  class="button"><a href="#menu">Check Recipe</a></button>
                 </div>
                 <img src="Images/spice.jpg" alt="">
             </div>
@@ -72,17 +91,32 @@
                 <div class="services__content">
                     <img class="services__img" src="Images/dish.png" alt="">
                     <h3 class="services__title">Excellent food</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city. </p>
+                    <p class="services__description">Lorem ipsum dolor, sit
+                        amet consectetur 
+                        adipisicing elit. Tempore atque facilis rem animi 
+                        iste accusantium fugiat dignissimos tempora ad 
+                        explicabo, sed, asperiores velit? Alias sequi 
+                        voluptatem quam officia nihil consectetur?</p>
                 </div>
                 <div class="services__content">
                     <img class="services__img" src="Images/pizza.png" alt="">
-                    <h3 class="services__title">Fast food</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city. </p>
+                    <h3 class="services__title">Confirm Recipe</h3>
+                    <p class="services__description">Lorem ipsum dolor, sit
+                        amet consectetur 
+                        adipisicing elit. Tempore atque facilis rem animi 
+                        iste accusantium fugiat dignissimos tempora ad 
+                        explicabo, sed, asperiores velit? Alias sequi 
+                        voluptatem quam officia nihil consectetur?</p>
                 </div>
                 <div class="services__content">
                     <img class="services__img" src="Images/truck.png" alt="">
                     <h3 class="services__title">Delivery</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city. </p>
+                    <p class="services__description">Lorem ipsum dolor, sit
+                        amet consectetur 
+                        adipisicing elit. Tempore atque facilis rem animi 
+                        iste accusantium fugiat dignissimos tempora ad 
+                        explicabo, sed, asperiores velit? Alias sequi 
+                        voluptatem quam officia nihil consectetur?</p>
                 </div>
             </div>
         </section>
@@ -198,7 +232,7 @@
             </div>
         </div>
 
-        <p class="footer__copy">&#169; 2022 Emmycode. All right reserved.</p>
+        <p class="footer__copy">&#169; 2022 dev_emmy. All right reserved.</p>
     </footer>
 
  
