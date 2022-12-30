@@ -6,17 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/Images/ch.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/CSS/recipe.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
     <script src="/JS/recipe.js" defer></script>
     <title>Recipe</title>
 </head>
 <body>
+
+    <header class="i-header " id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"><img src="/Images/ch.png" alt=""></a>
+
+            <i class="bx bx-moon change-theme " id="theme-button"></i>
+           
+        </nav>
+    </header>   
+    
     <div class="container">
+        <!-- <img src="/Images/m.png" alt=""> -->
         <div class="card">
             <div class="top">
-                <span class="light-dark-mode">
+                <!-- <i class="bx bx-moon change-theme" id="theme-button"></i> -->
+                <!-- <span class="light-dark-mode">
                     <i class='bx bx-sun'></i>
-                </span>
+                </span> -->
                 <span class="search-container">
                     <input class="search-input" type="text" placeholder="Enter meal...">
                     <span class="search-icon">
@@ -27,6 +41,18 @@
             <div class="fav-meals-container">
                 <h2>Favorite Meals</h2>
                 <div class="fav-meals">
+                    <!-- <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class='bx bx-x'></i>
+                    </div>
+
                     <div class="single">
                         <div class="top">
                             <div class="img-container">
@@ -38,23 +64,130 @@
                         </div>
                         <i class='bx bx-x'></i>
                     </div>
+
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <div class="single">
+                        <div class="top">
+                            <div class="img-container">
+                                <img src="https://unsplash.it/100/100" alt="">
+                            </div>
+                            <div class="text">
+                                <p>Meal Name</p>
+                            </div>
+                        </div>
+                        <i class='bx bx-x'></i>
+                    </div> -->
+
+                                 
                 </div>
             </div>
         </div>
         <div class="meals-container">
             <h2>Random Meal</h2>
             <div class="meal">
-                <div class="meal-card">
+                <!-- <div class="meal-card">
                     <div class="meal-card-img-container">
                         <img src="https://unsplash.it/400/300" alt="">
                     </div>
                     <div class="meal-name">
                         <p>Meal's Name</p>
-                        <i class='bx bx-heart'></i>
+                        <i class="fa-regular fa-heart"></i>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+
+    <div class="pop-up-container">
+        <div class="pop-up">
+            <i class="fa-solid fa-x"></i>
+            <div class="pop-up-inner">
+                <div class="left">
+                    <div class="meal-card">
+                        <div class="meal-card-img-container">
+                            <img src="https://unsplash.it/400/300" alt="">
+                        </div>
+                        <div class="meal-name">
+                            <p>Meal's Name</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div>
+                        <h2>Instructions</h2>
+                        <!-- <p class="meal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iste, 
+                            voluptatem impedit excepturi iure 
+                            perspiciatis nobis molestias, 
+                            culpa pariatur, quos nihil 
+                            maiores molestiae vitae at 
+                            eligendi ipsum eum asperiores 
+                            id nemo! Dolor id obcaecati 
+                            totam ab, necessitatibus 
+                            voluptates quaerat tenetur. 
+                            Nobis necessitatibus neque eius 
+                            iusto voluptatum ut labore a 
+                            assumenda!
+                             totam ab, necessitatibus 
+                            voluptates quaerat tenetur. 
+                            Nobis necessitatibus neque eius 
+                            iusto voluptatum ut labore a 
+                            assumenda! -->
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                            <li>Some Ingredient - Measure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/JS/main.js"></script>
 </body>
 </html>
