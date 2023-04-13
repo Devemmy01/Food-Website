@@ -247,7 +247,7 @@ img{
     color: var(--first-color);
     margin-top: 3rem;
 }
-.home__title span {
+/* .home__title span {
     display: inline-block;
     -webkit-animation: wave-text .5s ease-in-out ;
             animation: wave-text 2s ease-in-out infinite;
@@ -310,7 +310,7 @@ img{
     100% {
       transform: translateY(0em);
     }
-  }
+  } */
 .home__subtitle{
     font-size: var(--h1-font-size);
     color: var(--title-color);
@@ -318,9 +318,6 @@ img{
 }
 
 .home img{
-    box-sizing: border-box;
-    border-radius: 47% 53% 27% 73% / 78% 27% 73% 22%  ;
-    background: var(--first-color);
     margin-top: 2rem;
     width: auto;
     height: 320px;
