@@ -132,7 +132,6 @@ img{
 }
 .nav{
     max-width: 1024px;
-    height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,12 +172,11 @@ img{
     color: var(--first-color);
 }
 .nav__toggle{
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .change-theme{
     position: initial;
-    margin-left: var(--mb-2);
 }
 .show-menu{
     top: var(--header-height);
@@ -219,6 +217,7 @@ img{
     bottom: 1.5rem;
 }
 .home__container{
+    margin-top: 7rem;
     align-content: center;
     max-width: 100%;
     height: auto;
