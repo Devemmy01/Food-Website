@@ -262,12 +262,6 @@ body{
 .meal-card:hover{
     background-color: var(--secondary-clr);
 }
-.meal-card:hover .meal-name{
-    color: var(--primary-clr);
-    text-shadow: 0 0 .2rem var(--primary-clr);
-}
-
-
 .pop-up-container{
     margin-top: 7rem;
     position: fixed;
