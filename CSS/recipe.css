@@ -10,11 +10,9 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background: url(/Images/m.png), var(--primary-clr);
+    background:var(--primary-clr);
     background-repeat: no-repeat;
-    /* background-color: ; */
     padding: 3rem 0;
-    /* background-size: auto; */
 }
 :root{
     --primary-clr: #fff9f9;
@@ -110,9 +108,9 @@ body{
     background-color: var(--secondary-clr);
     color: var(--primary-clr);
 }
-.search-icon:active{
+/* .search-icon:active{
     transform: scale(.8) translate(-50%);
-}
+} */
 .search-container:hover input,
 .search-container input:focus{
     width: 100%;
@@ -271,6 +269,7 @@ body{
 
 
 .pop-up-container{
+    margin-top: 7rem;
     position: fixed;
     inset: 0;
     background-color: var(--primary-rgba-7);

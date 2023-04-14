@@ -7,11 +7,6 @@ const popup_container = document.querySelector('.pop-up-container');
 const close_popup_btn = document.querySelector('.pop-up > i');
 const popup = document.querySelector('.pop-up-inner');
 
-
-//  
-
-
-
 getRandomMeal()
 fetchFavMeals()
 

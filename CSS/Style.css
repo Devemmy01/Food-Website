@@ -581,3 +581,11 @@ button a{
         column-gap: 7rem;
     }
 }
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-rgba-3);
+    border-radius: 100vw;
+}
